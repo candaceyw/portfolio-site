@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script
+			src="https://kit.fontawesome.com/943658ef75.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+			rel="stylesheet"
+		/>
+
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="css/icon-font.css" />
+		<link rel="stylesheet" href="sass/style.css" />
+		<link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+		<title>Candace Wilson - Developer and Designer</title>
+		<script src="js/typed.js"></script>
+		<script>
+			var typed = new Typed('#typed', {
+				stringsElement: '#typed-strings',
+			});
+		</script>
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+			<p class="browsehappy">
+				You are using an <strong>outdated</strong> browser. Please
+				<a href="#">upgrade your browser</a> to improve your experience.
+			</p>
+		<![endif]-->
+
+		<div class="navigation">
+			<input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+			<label for="navi-toggle" class="navigation__button">
+				<span class="navigation__icon">&nbsp;</span>
+			</label>
+
+			<div class="navigation__background">&nbsp;</div>
+
+			<nav class="navigation__nav">
+				<ul class="navigation__list">
+					<li class="navigation__item">
+						<a href="index.html" class="navigation__link"
+							><span>01</span>Home</a
+						>
+					</li>
+					<li class="navigation__item">
+						<a href="#" class="navigation__link"
+							><span>02</span>About Candace</a
+						>
+					</li>
+					<li class="navigation__item">
+						<a href="#" class="navigation__link"><span>03</span>Portfolio</a>
+					</li>
+					<li class="navigation__item">
+						<a href="#" class="navigation__link"><span>04</span>Contact</a>
+					</li>
+					<li class="navigation__item">
+						<a href="#" class="navigation__link"><span>05</span>Resumé</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<header class="header">
+			<div class="header__logo-box">
+				<img src="assests/CW-symbol.png" alt="Logo" class="header__logo" />
+			</div>
+			<div class="header__text-box">
+				<h1 class="heading-primary">
+					<span class="heading-primary--main">Candace Wilson</span>
+					<span class="heading-primary--sub">Developer and Designer </span>
+				</h1>
+			</div>
+			<section section-hero>
+				<div class="bg-video">
+					<video class="bg-video__content" autoplay muted loop>
+						<source src="./assests/Hey-World.mp4" type="video/mp4" />
+						<source src="./assests/Hey-World.webm" type="video/webm" />
+						Your browser is not supported
+					</video>
+				</div>
+			</section>
+		</header>
+
+		<main>
+			<section class="section-book">
+				<div class="row">
+					<div class="book">
+						<div class="book__form">
+							<form action="#" class="form">
+								<div class="u-margin-bottom-medium">
+									<h2>
+										Contact Me Now!
+									</h2>
+								</div>
+								<div class="form__group">
+									<input
+										type="text"
+										class="form__input"
+										placeholder="Full Name"
+										id="name"
+										required
+									/>
+									<label for="name" class="form__label">Full Name</label>
+								</div>
+								<div class="form__group">
+									<input
+										type="email"
+										class="form__input"
+										placeholder="Email Address"
+										id="email"
+										required
+									/>
+									<label for="email" class="form__label">Email Address</label>
+								</div>
+								<div class="form__group">
+									<button class="btn btn--green">Submit &rarr;</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<h6>© 2020 Candace Wilson. All Rights Reserved.</h6>
+			<ul id="footerLinks">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li>
+					<a href="mailto:candaceyw@gmail.com"
+						><i class="fas fa-envelope"></i
+					></a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/candaceyw/"
+						><i class="fab fa-linkedin-in"></i
+					></a>
+				</li>
+				<li>
+					<a href="https://twitter.com/geekyTallGal">
+						<i class="fab fa-twitter"></i
+					></a>
+				</li>
+				<li>
+					<a href="https://github.com/candaceyw">
+						<i class="fab fa-github-alt"></i
+					></a>
+				</li>
+			</ul>
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+	</body>
+</html>

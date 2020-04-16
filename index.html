@@ -17,7 +17,7 @@
 
 		<link rel="stylesheet" href="css/icon-font.css" />
 		<link rel="stylesheet" href="sass/style.css" />
-		<link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+		<link rel="shortcut icon" type="image/icon" href="assests/favicon.ico" />
 
 		<title>Candace Wilson - Developer and Designer</title>
 		<script src="js/typed.js"></script>
@@ -59,7 +59,9 @@
 						<a href="#" class="navigation__link"><span>03</span>Portfolio</a>
 					</li>
 					<li class="navigation__item">
-						<a href="#" class="navigation__link"><span>04</span>Contact</a>
+						<a href="#contact" class="navigation__link"
+							><span>04</span>Contact</a
+						>
 					</li>
 					<li class="navigation__item">
 						<a href="#" class="navigation__link"><span>05</span>Resumé</a>
@@ -70,7 +72,11 @@
 
 		<header class="header">
 			<div class="header__logo-box">
-				<img src="assests/CW-symbol.png" alt="Logo" class="header__logo" />
+				<img
+					src="assests/CW-symbol-white.png"
+					alt="Logo"
+					class="header__logo"
+				/>
 			</div>
 			<div class="header__text-box">
 				<h1 class="heading-primary">
@@ -90,14 +96,19 @@
 		</header>
 
 		<main>
-			<section class="section-book">
+			<!-- CONTACT SECTION -->
+			<section class="section-contact" id="contact">
 				<div class="row">
-					<div class="book">
-						<div class="book__form">
-							<form action="#" class="form">
+					<div class="contact">
+						<div class="contact__form">
+							<form
+								action="https://formspree.io/xwknjope"
+								method="POST"
+								class="form"
+							>
 								<div class="u-margin-bottom-medium">
-									<h2>
-										Contact Me Now!
+									<h2 class="heading-secondary">
+										Contact Me!
 									</h2>
 								</div>
 								<div class="form__group">
@@ -121,7 +132,17 @@
 									<label for="email" class="form__label">Email Address</label>
 								</div>
 								<div class="form__group">
-									<button class="btn btn--green">Submit &rarr;</button>
+									<textarea
+										name="message"
+										class="form__input"
+										placeholder="Your Message"
+										id="name"
+										required
+									></textarea>
+									<label for="message" class="form__label">Your Message</label>
+								</div>
+								<div class="form__group">
+									<button class="btn btn--green">SUBMIT</button>
 								</div>
 							</form>
 						</div>
@@ -130,34 +151,51 @@
 			</section>
 		</main>
 
-		<footer>
-			<h6>© 2020 Candace Wilson. All Rights Reserved.</h6>
-			<ul id="footerLinks">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#portfolio">Portfolio</a></li>
-				<li>
-					<a href="mailto:candaceyw@gmail.com"
-						><i class="fas fa-envelope"></i
-					></a>
-				</li>
-				<li>
-					<a href="https://www.linkedin.com/in/candaceyw/"
-						><i class="fab fa-linkedin-in"></i
-					></a>
-				</li>
-				<li>
-					<a href="https://twitter.com/geekyTallGal">
-						<i class="fab fa-twitter"></i
-					></a>
-				</li>
-				<li>
-					<a href="https://github.com/candaceyw">
-						<i class="fab fa-github-alt"></i
-					></a>
-				</li>
-			</ul>
+		<footer class="footer">
+			<!-- <div class="footer__logo-box">
+				<img src="img/logo-green-2x.png" alt="full logo" class="footer__logo" />
+			</div> -->
+			<div class="row">
+				<div class="col-1-of-2">
+					<div class="footer__navigation">
+						<ul class="footer__list">
+							<li class="footer__item">
+								<a href="#" class="footer__link">Home</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">About</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">Portfolio</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-1-of-2">
+					<ul class="social">
+						<li class="footer__item">
+							<a href="https://www.linkedin.com/in/candaceyw/"
+								><i class="fab fa-linkedin-in"></i
+							></a>
+						</li>
+						<li class="footer__item">
+							<a href="https://twitter.com/geekyTallGal">
+								<i class="fab fa-twitter"></i
+							></a>
+						</li>
+						<li class="footer__item">
+							<a href="https://github.com/candaceyw">
+								<i class="fab fa-github-alt"></i
+							></a>
+						</li>
+					</ul>
+					<p class="footer_copyright">
+						© 2020 Candace Wilson. All Rights Reserved.
+					</p>
+				</div>
+			</div>
 		</footer>
+
 		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 	</body>
 </html>

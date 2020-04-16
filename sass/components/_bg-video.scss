@@ -1,11 +1,17 @@
 .bg-video {
+	// background-image: linear-gradient(
+	// 	to right bottom,
+	// 	$color-primary-light,
+	// 	$cw-orange
+	// );
+
 	position: absolute;
 	top: 0;
 	left: 0;
 	height: 100%;
 	width: 100%;
-	z-index: -1;
-	// opacity: ;
+	z-index: -100;
+	opacity: 0.14;
 	overflow: hidden;
 
 	&__content {

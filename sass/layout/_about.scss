@@ -1,0 +1,66 @@
+.section-skills {
+	background-color: $color-grey-light-1;
+	margin-top: -90px;
+	border-bottom: rgb(208, 208, 208) solid 1px;
+}
+
+// div.row {
+// 	margin-top: 90px;
+// }
+
+.rounded-circle {
+	border-radius: 50%;
+}
+
+.skills {
+	margin-top: 150px;
+}
+
+.side {
+	margin-top: 60px;
+}
+
+.img1 {
+	width: 90%;
+	vertical-align: middle;
+	margin-bottom: 15px;
+}
+
+a.hvr-ripple-out {
+	display: inline-block;
+	vertical-align: middle;
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px transparent;
+	position: relative;
+
+	::before {
+		position: absolute;
+		border: #e1e1e1 solid 6px;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		animation-duration: 1s;
+	}
+}
+
+.about-p {
+	font-size: 1.5rem;
+	line-height: 2.5;
+	margin-bottom: 3rem;
+	text-align: justify;
+}
+
+.about-social-items {
+	margin: 10%;
+}
+.aboutSocial {
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+#about-icon {
+	font-size: 3rem;
+	color: $color-grey-dark-3;
+}

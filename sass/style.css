@@ -190,6 +190,7 @@ body {
   -webkit-background-clip: text;
   letter-spacing: 0.2rem;
   transition: all 0.2s;
+  color: #e46428;
 }
 
 .heading-tertiary {
@@ -402,6 +403,70 @@ body {
   opacity: 1;
 }
 
+.section-skills {
+  background-color: #f7f7f7;
+  margin-top: -90px;
+  border-bottom: #d0d0d0 solid 1px;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}
+
+.skills {
+  margin-top: 150px;
+}
+
+.side {
+  margin-top: 60px;
+}
+
+.img1 {
+  width: 90%;
+  vertical-align: middle;
+  margin-bottom: 15px;
+}
+
+a.hvr-ripple-out {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+}
+a.hvr-ripple-out ::before {
+  position: absolute;
+  border: #e1e1e1 solid 6px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  animation-duration: 1s;
+}
+
+.about-p {
+  font-size: 1.5rem;
+  line-height: 2.5;
+  margin-bottom: 3rem;
+  text-align: justify;
+}
+
+.about-social-items {
+  margin: 10%;
+}
+
+.aboutSocial {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#about-icon {
+  font-size: 3rem;
+  color: #333;
+}
+
 .footer {
   background-color: #333;
   padding: 10rem 0;
@@ -455,9 +520,10 @@ body {
   text-align: center;
 }
 
-i {
-  font-size: 2rem;
+#footer-social {
+  font-size: 3rem;
   color: white;
+  margin-bottom: 15px;
 }
 
 p.footer_copyright {
@@ -648,6 +714,55 @@ p.footer_copyright {
   transform: rotate(-135deg);
 }
 
+.recentWork {
+  display: inline-block;
+  padding: 5%;
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  border-bottom: #dddddd solid 1px;
+  width: 100%;
+  text-align: center;
+  background: #fafafa;
+}
+
+.work-section {
+  display: inline-block;
+  transition: transform 0.3s;
+  margin: 1%;
+}
+.work-section img {
+  width: 100%;
+  border-radius: 0.3rem;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+}
+.work-section:hover {
+  transform: translateY(-1.5rem) scale(1.03);
+}
+
+.header-center {
+  height: 1px;
+  background: #ddd;
+  border-bottom: #dddddd solid 1px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.header-center h3 {
+  background: #fafafa;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  margin-left: -150px;
+  width: 300px;
+  text-align: center;
+  display: block;
+  color: #666666;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: normal;
+  letter-spacing: 1px;
+  padding: 0px;
+}
+
 body {
   background: white;
 }
@@ -675,10 +790,6 @@ body {
 .contact__form {
   width: 50%;
   padding: 6rem;
-}
-
-h2.heading-secondary {
-  color: #e46428;
 }
 
 /*# sourceMappingURL=style.css.map */

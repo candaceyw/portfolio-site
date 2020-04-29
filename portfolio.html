@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Candace Wilson - Developer and Designer / Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/943658ef75.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet"/>
+    <link rel="stylesheet" href="sass/style.css" />
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    </head>
+    <body>
+
+      <!-- --------------------- NAVIGATION -------------------->
+
+		<div class="navigation">
+			<input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+			<label for="navi-toggle" class="navigation__button">
+				<span class="navigation__icon">&nbsp;</span>
+			</label>
+
+			<div class="navigation__background">&nbsp;</div>
+
+			<nav class="navigation__nav">
+				<ul class="navigation__list">
+					<li class="navigation__item">
+						<a href="index.html" class="navigation__link"
+							><span>01</span>Home</a
+						>
+					</li>
+					<li class="navigation__item">
+						<a href="#" class="navigation__link"
+							><span>02</span>About Candace</a
+						>
+					</li>
+					<li class="navigation__item">
+						<a href="portfolio.html" class="navigation__link"><span>03</span>Portfolio</a>
+					</li>
+					<li class="navigation__item">
+						<a href="./index.html#contact" class="navigation__link"
+							><span>04</span>Contact</a
+						>
+					</li>
+					<li class="navigation__item">
+						
+						<a href="https://www.dropbox.com/s/1l5foitgqg5c8ey/Candace_Wilson-Resume2020.pdf?dl=0" class="navigation__link" target=”_blank”><span>05</span>Resumé</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<!----------------------- NAVIGATION END ------------------ -->
+    <a href="/index.html" class="btn-text">&#8592; Return home </a>
+
+       
+<div id="myBtnContainer" >
+  <button class="btn3 active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn3" onclick="filterSelection('print')"> Print </button>
+  <button class="btn3" onclick="filterSelection('web')"> Web </button>
+  <button class="btn3" onclick="filterSelection('branding')"> Branding </button>
+
+</div>
+
+<!-- Portfolio Gallery Grid -->
+
+<section class="portfolio-container">
+    <div class="column web ">
+        <div class="content">
+          <img src="/assests/portfolio/web/wanderlust.png" alt="web-1" class="column_img">
+        <a href="./portfolio-pages/wanderlust.html"> <button class="btn3 column__btn3">View Wanderlust Project</button></a> 
+        </div>
+    </div>
+    <div class="column print ">
+        <div class="content">
+          <img src="/assests/portfolio/print/print-1.jpg" alt="print-1" class="column_img">
+          <a href="./portfolio-pages/marathon.html"> <button class="btn3 column__btn3">View Knoxville Marathon Project</button></a>
+        </div>
+    </div>
+
+    <div class="column web ">
+        <div class="content">
+          <img src="/assests/portfolio/web/spacex.jpg" alt="print-1" class="column_img">
+          <a href="./portfolio-pages/spacex.html"> <button class="btn3 column__btn3">View SpaceX Project</button></a>
+        </div>
+    </div>
+
+       <div class="column web ">
+        <div class="content">
+          <img src="/assests/portfolio/web/wheelgood.png" alt="web-1" class="column_img">
+          <a href="./portfolio-pages/wheelgood.html"> <button class="btn3 column__btn3">View WheelGood Project</button></a>
+        </div>
+    </div>
+    <div class="column print branding">
+        <div class="content">
+          <img src="/assests/portfolio/print/print-2.jpg" alt="print-1" class="column_img">
+          <a href="./portfolio-pages/dragon.html"> <button class="btn3 column__btn3">View Dragon Boat Project</button></a>
+        </div>
+    </div>
+    <div class="column web ">
+        <div class="content">
+          <img src="/assests/portfolio/web/ghfinder.jpg" alt="print-1" class="column_img">
+         <a href="./portfolio-pages/github.html"><button class="btn3 column__btn3">View GitHub Project</button></a>
+        </div>
+    </div>
+
+    <div class="column web branding">
+        <div class="content">
+          <img src="/assests/portfolio/web/amberfox.png" alt="web-1" class="column_img">
+          <a href="./portfolio-pages/amberfox.html"><button class="btn3 column__btn3">View Amber Fox Project</button></a>
+        </div>
+    </div>
+
+    <div class="column print branding">
+        <div class="content">
+          <img src="/assests/portfolio/print/print-4.jpg" alt="print-1" class="column_img">
+          <a href="./portfolio-pages/racecancer.html"> <button class="btn3 column__btn3">View Race Against Cancer Project</button></a>
+        </div>
+    </div>
+   
+    <div class="column web ">
+        <div class="content">
+          <img src="/assests/portfolio/web/farm.png" alt="web-1" class="column_img">
+          <a href="/portfolio-pages/farm.html"><button class="btn3 column__btn3">View Farm Project</button></a>
+        </div>
+    </div>
+
+    
+    <div class="column web ">
+        <div class="content">
+          <img src="/assests/portfolio/web/rideforlife.png" alt="print-1" class="column_img">
+          <a href="/portfolio-pages/ridelife.html"><button class="btn3 column__btn3">View Ride For Life Project</button></a>
+        </div>
+    </div>
+
+    <div class="column print branding">
+        <div class="content">
+          <img src="/assests/portfolio/print/print-11.jpg" alt="print-1" class="column_img">
+          <a href="/portfolio-pages/citycouncil.html"><button class="btn3 column__btn3">View City Council Project</button></a>
+        </div>
+    </div>
+</section>
+                        <!----------------END GRID --------------------->
+
+
+    <footer class="footer">
+      <div class="row">
+        <div class="col-1-of-3">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="/index.html" class="footer__link">Home</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">About</a>
+              </li>
+              <li class="footer__item">
+                <a href="/portfolio.html" class="footer__link">Portfolio</a>
+              </li>
+              <li class="footer__item">
+                <a href="./index.html#contact" class="footer__link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-3"">
+        <img src="assests/CW-symbol-white.png" alt="full logo" class="footer__logo" />
+      </div>
+        <div class="col-1-of-3">
+          <ul class="social">
+            <li class="footer__item">
+              <a href="https://www.linkedin.com/in/candaceyw/" target=”_blank”
+                ><i class="fab fa-linkedin-in" id="footer-social"></i
+              ></a>
+            </li>
+            <li class="footer__item">
+              <a href="https://twitter.com/geekyTallGal" target=”_blank”>
+                <i class="fab fa-twitter" id="footer-social"></i
+              ></a>
+            </li>
+            <li class="footer__item">
+              <a href="https://github.com/candaceyw" target=”_blank”>
+                <i class="fab fa-github-alt" id="footer-social"></i
+              ></a>
+            </li>
+          </ul>
+          <p class="footer_copyright">
+            © 2020 Candace Wilson. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+        <script src="/js/portfolioFilter.js"></script>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+#myBtnContainer {
+	width: 90%;
+	display: flex;
+	margin: auto;
+	margin-bottom: 30px;
+
+	justify-content: center;
+	.btn3 {
+		margin: 30px;
+	}
+}
+
+.portfolio-container {
+	width: 85%;
+	height: 85%;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+	grid-auto-rows: 40px;
+	margin: auto;
+}
+
+.column {
+	display: none; /* Hide all elements by default */
+	width: 100%;
+	height: 100%;
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
+
+		z-index: 1;
+	}
+}
+
+.btn3 {
+	background: $color-grey-dark-3;
+	color: #fff;
+	border: none;
+	border-radius: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	padding: 1.8rem 3rem;
+	width: 100%;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+.btn3:hover {
+	background-color: $color-grey-dark-2;
+	transition: all 0.4s;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+	display: block;
+}
